@@ -1,6 +1,6 @@
 #include <utils/RefBase.h>
-#include <binder/IInterface.h>
-#include <binder/Parcel.h>
+#include <utils/IInterface.h>
+#include <utils/Parcel.h>
 
 namespace android {
 

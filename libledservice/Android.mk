@@ -15,7 +15,9 @@ LOCAL_SHARED_LIBRARIES += \
 
 LOCAL_C_INCLUDES += \
 	frameworks/base/include \
-	device/mokoid/hardware/modules/include
+	vendor/mokoid/hardware/modules/include
+
+# Android 2.3 above use device instead of vendor
 
 LOCAL_MODULE_TAGS := eng
 

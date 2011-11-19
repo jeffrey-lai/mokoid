@@ -21,9 +21,10 @@
 #include <unistd.h>
 #include <grp.h>
 
-#include <binder/IPCThreadState.h>
-#include <binder/ProcessState.h>
-#include <binder/IServiceManager.h>
+#include <utils/IPCThreadState.h>
+#include <utils/ProcessState.h>
+#include <utils/IServiceManager.h>
+/* Android use "binder" instead of "utils" */
 #include <utils/Log.h>
 
 #include <private/android_filesystem_config.h>

@@ -25,9 +25,10 @@
 #include <utils/Errors.h>
 #include <utils/RefBase.h>
 #include <utils/String16.h>
-#include <binder/Binder.h>
-#include <binder/IServiceManager.h>
+#include <utils/Binder.h>
+#include <utils/IServiceManager.h>
 
+/* Android 2.3 above use binder instead of utils */
 #include <mokoid/led.h>
 
 #include "LedService.h"
