@@ -18,7 +18,9 @@ include $(CLEAR_VARS)
 
 # our own branch needs these headers
 LOCAL_C_INCLUDES += \
-	device/mokoid/hardware/modules/include/
+	vendor/mokoid/hardware/modules/include/
+
+# Android version 2.3 above  use device instead of vendor
 
 LOCAL_MODULE_TAGS := eng
 LOCAL_PRELINK_MODULE := false
